@@ -1,0 +1,23 @@
+{
+  "GENERAL SETTINGS": {
+    "index": "NASDAQ100",
+    "index ticker": ".NDX",
+    "start date": "1990-01-01",
+    "end date": "2019-12-31"
+  },
+  "BACKTEST SETTINGS": {
+    "strategy": "RsiStrategy",
+    "cash": 100000,
+    "commission": 0.002,
+    "margin": 1,
+    "trade_on_close": "",
+    "hedging": "",
+    "exclusive_orders": ""
+  },
+  "PORTFOLIO SETTINGS": {
+    "cash": 100000,
+    "commission": 0.002,
+    "start date": "2015-01-01",
+    "end date": "2019-12-31"
+  }
+}

@@ -1,0 +1,17 @@
+name: TFM
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - ta-lib
+  - python-graphviz
+  - matplotlib
+  - pandas
+  - tensorflow >=2,<2.3
+  - tqdm
+  - scikit-learn
+  - lightgbm
+  - pip
+  - pip:
+      - -r file:requirements.txt
